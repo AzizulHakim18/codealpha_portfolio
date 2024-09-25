@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+body {
+    margin: auto;
+    padding: 0;
+    width: 75%;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #080808;
+    color: white;
+}
+
+/* home section css class element */
+h1 {
+    font-size: 35px;
+}
+
+.logo_shadow {
+    text-shadow: 0 0 35px #00ffee;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+
+.logo_shadow:hover {
+    transform: scale(1.1);
+}
+
+.nav_link {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin-left: 10px;
+    border-bottom: 3px solid transparent;
+}
+
+.nav_link:hover,
+.nav_link:active {
+    color: #00ffee;
+    border-bottom: 2px solid #00ffee;
+}
+
+.primary_button {
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #131313;
+    color: white;
+    margin: 10px;
+    padding: 12px 18px;
+    border: 1px solid #00ffee;
+    border-radius: 10px 25px;
+    box-shadow: #00ffee 0px 0px 8px 2px;
+    transition: .5s ease-in-out;
+}
+
+.primary_button:hover {
+    background-color: #00ffee;
+    color: #131313;
+}
+
+.secondary_button {
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #00ffee;
+    color: #131313;
+    margin: 10px;
+    padding: 12px 18px;
+    border: 1px solid #00ffee;
+    border-radius: 10px 25px;
+    box-shadow: #00ffee 0px 0px 8px 2px;
+    transition: .5s ease-in-out;
+}
+
+.secondary_button:hover {
+    background-color: #131313;
+    color: #00ffee;
+    box-shadow: #00ffee 0px 0px 8px 4px;
+}
+
+.primary_text_color {
+    color: #00ffee;
+}
+
+.nav_flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    backdrop-filter: blur(10px);
+    z-index: 10;
+    gap: 20px;
+}
+
+.fixed {
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+.hero_body {
+    height: 80vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.hero_body_content {
+    padding: 10%;
+}
+
+.social_icon {
+    color: #00ffee;
+    font-size: 20px;
+    width: 20px;
+    height: 20px;
+    margin: 5px 0px;
+    padding: 5px;
+    border: 1px solid #00ffee;
+    text-align: center;
+    border-radius: 50%;
+    transition: .5s ease-in-out;
+}
+
+.social_icon:hover {
+    background-color: #00ffee;
+    color: #080808;
+    box-shadow: #00ffee 0px 0px 20px 4px;
+}
+
+.hero_img {
+    width: 100%;
+    border: 3px solid #00ffee;
+    border-radius: 50%;
+    box-shadow: #00ffee 0px 0px 20px 4px;
+    transition: .5s ease-in-out;
+}
+
+.hero_img:hover {
+    box-shadow: #00ffee 0px 0px 200px 4px;
+}
