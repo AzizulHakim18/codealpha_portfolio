@@ -20,19 +20,21 @@
         <div class="logo_shadow">
             <h1>Azizul <span class="primary_text_color">Hakim</span></h1>
         </div>
-        <!-- Hamburger Icon -->
-        <div class="hamburger" id="hamburger">
-            <span class="line"></span>
-            <span class="line"></span>
-            <span class="line"></span>
+        <!-- Hamburger icon for mobile -->
+        <div class="hamburger" onclick="toggleMenu()">
+            <i class="bx bx-menu"></i> <!-- Menu icon -->
         </div>
+        <!-- Navigation Links -->
         <nav class="nav_links" id="navLinks">
-            <a href="home" class="nav_link">Home</a>
-            <a href="services" class="nav_link">Education</a>
-            <a href="projects" class="nav_link">Services</a>
-            <a href="testimonials" class="nav_link">Testimonials</a>
-            <a href="about" class="nav_link">About</a>
-            <a href="contact" class="nav_link">Contact</a>
+            <a href="#home" class="nav_link">Home</a>
+            <a href="#services" class="nav_link">Services</a>
+            <a href="#testimonials" class="nav_link">Testimonials</a>
+            <a href="#about" class="nav_link">About</a>
+            <a href="#contact" class="nav_link">Contact</a>
+            <!-- Close button inside the navigation for mobile view -->
+            <div class="close_icon" onclick="toggleMenu()">
+                <i class="bx bx-x"></i> <!-- Close (X) icon -->
+            </div>
         </nav>
     </div>
     <!-- navbar end -->
@@ -203,7 +205,7 @@
     </section>
     <!-- my projects ended -->
     <!-- hero testimonials start -->
-    <section class="testimonials">
+    <section id="testimonials">
         <div>
             <h1 class="hero_content_headline primary_text_color">Testimonials</h1>
             <div class="testimonials">
