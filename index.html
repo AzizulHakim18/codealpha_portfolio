@@ -20,16 +20,23 @@
         <div class="logo_shadow">
             <h1>Azizul <span class="primary_text_color">Hakim</span></h1>
         </div>
-        <nav>
-            <a href="" class="nav_link">Home</a>
-            <a href="" class="nav_link">Education</a>
-            <a href="" class="nav_link">Services</a>
-            <a href="" class="nav_link">Testimonials</a>
-            <a href="" class="nav_link">Contact</a>
+        <!-- Hamburger Icon -->
+        <div class="hamburger" id="hamburger">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+        </div>
+        <nav class="nav_links" id="navLinks">
+            <a href="home" class="nav_link">Home</a>
+            <a href="services" class="nav_link">Education</a>
+            <a href="projects" class="nav_link">Services</a>
+            <a href="testimonials" class="nav_link">Testimonials</a>
+            <a href="about" class="nav_link">About</a>
+            <a href="contact" class="nav_link">Contact</a>
         </nav>
     </div>
     <!-- navbar end -->
-    <section>
+    <section id="home">
         <!-- hero section -->
         <div class="hero_body">
             <div class="hero_body_content">
@@ -122,7 +129,7 @@
     <!-- my service card ended -->
 
     <!-- my projects -->
-    <section class="projects_section">
+    <section class="projects_section" id="projects">
         <div>
             <h1 class="hero_content_headline">My <span class="primary_text_color">Projects</span></h1>
             <p>
@@ -196,7 +203,7 @@
     </section>
     <!-- my projects ended -->
     <!-- hero testimonials start -->
-    <section>
+    <section class="testimonials">
         <div>
             <h1 class="hero_content_headline primary_text_color">Testimonials</h1>
             <div class="testimonials">
@@ -258,6 +265,68 @@
         </div>
     </section>
     <!-- hero testimonials ended -->
+
+
+    <!-- About Me Section Start -->
+    <section class="about_section" id="about">
+        <h1 class="hero_content_headline">About <span class="primary_text_color">Me</span></h1>
+        <div class="about_flex">
+            <div class="about_img_container">
+                <img src="https://i.ibb.co.com/Hr6qGPf/profile.png" alt="Profile Picture" class="about_img">
+                <p class="experience">2+ <br> Years Experience</p>
+            </div>
+            <div class="about_text">
+                <p>I am a highly skilled web developer with over 2 years of experience, specializing in creating
+                    engaging and responsive web applications. With expertise in front-end technologies like React,
+                    Tailwind CSS, and Three.js, I bring creativity and innovation to every project. My background in
+                    backend technologies, including Node.js and MongoDB, ensures full-stack development capabilities
+                    that deliver seamless user experiences.</p>
+                <br>
+                <p>Transitioning from Petroleum and Mining Engineering to web development, I apply my analytical skills
+                    to solve complex problems and build user-centered digital solutions. I am constantly exploring new
+                    technologies and pushing the limits of what is possible in the web development world.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section Start -->
+    <section class="contact_section" id="contact">
+        <h1 class="hero_content_headline">Contact <span class="primary_text_color">Me</span></h1>
+        <div class="contact_flex">
+            <div class="contact_form">
+                <input type="text" name="name" placeholder="Name" class="input" id=""> <br>
+                <input type="email" name="email" placeholder="Email" class="input" id=""> <br>
+                <input type="number" name="number" placeholder="Phone Number" class="input" id=""><br>
+                <input type="text" name="subject" placeholder="Subject" class="input" id=""> <br>
+            </div>
+            <div class="contact_message">
+                <textarea name="message" placeholder="Your Message" class="text_message" id=""></textarea><br>
+                <input type="button" value="Send Message" class="secondary_button">
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section Start -->
+    <footer class="footer_section">
+        <div class="footer_content">
+            <div class="social_links">
+                <a href="#"><i class='social_icon bx bxl-linkedin'></i></a>
+                <a href="#"><i class='social_icon bx bxl-github'></i></a>
+                <a href="#"><i class='social_icon bx bxl-instagram'></i></a>
+                <a href="#"><i class='social_icon bx bxl-twitter'></i></a>
+            </div>
+            <nav>
+                <a href="#" class="nav_link">FAQ</a>
+                <a href="#" class="nav_link">Services</a>
+                <a href="#" class="nav_link">About Me</a>
+                <a href="#" class="nav_link">Contact</a>
+                <a href="#" class="nav_link">Testimonials</a>
+            </nav>
+            <div>
+                <span>&#169;</span>Azizul Hakim | All Rights Reserved.
+            </div>
+        </div>
+    </footer>
 
 
     <script src="./script//script.js"></script>
